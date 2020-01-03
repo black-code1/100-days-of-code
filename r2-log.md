@@ -11,3 +11,7 @@ Started Front End Libraries Certificate - Introduction to the Bootstrap Challeng
 ### R1D2
 
 Started Front End Libraries Certificate - Responsively Style Radio Buttons to Use Comments to Clarify Code
+
+### R1D3
+
+Started Front End Libraries Certificate - Learn How Script Tags and Document Ready Work to Remove an Element Using jQuery
