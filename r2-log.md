@@ -15,3 +15,7 @@ Started Front End Libraries Certificate - Responsively Style Radio Buttons to Us
 ### R1D3
 
 Started Front End Libraries Certificate - Learn How Script Tags and Document Ready Work to Remove an Element Using jQuery
+
+### R1D3
+
+Started Front End Libraries Certificate - Ends jQuery challenge && Start Sass
