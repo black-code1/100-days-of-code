@@ -10,12 +10,20 @@ Started Front End Libraries Certificate - Introduction to the Bootstrap Challeng
 
 ### R1D2
 
-Started Front End Libraries Certificate - Responsively Style Radio Buttons to Use Comments to Clarify Code
+Front End Libraries Certificate - Responsively Style Radio Buttons to Use Comments to Clarify Code
 
 ### R1D3
 
-Started Front End Libraries Certificate - Learn How Script Tags and Document Ready Work to Remove an Element Using jQuery
+Front End Libraries Certificate - Learn How Script Tags and Document Ready Work to Remove an Element Using jQuery
 
 ### R1D4
 
-Started Front End Libraries Certificate - Ends jQuery challenge && Start Sass
+Front End Libraries Certificate - Ends jQuery challenge && Start Sass
+
+### R1D5
+
+Front End Libraries Certificate - Ends Sass challenge
+
+### R1D6
+
+Front End Libraries Certificate - Start React
