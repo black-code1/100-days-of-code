@@ -27,3 +27,7 @@ Front End Libraries Certificate - Ends Sass challenge
 ### R1D6
 
 Front End Libraries Certificate - Start React
+
+### R1D7
+
+Front End Libraries Certificate - Start React
