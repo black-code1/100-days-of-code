@@ -30,4 +30,8 @@ Front End Libraries Certificate - Start React
 
 ### R1D7
 
-Front End Libraries Certificate - Start React
+Front End Libraries Certificate - Continue with React
+
+### R1D8
+
+Front End Libraries Certificate - Continue with React
