@@ -35,3 +35,7 @@ Front End Libraries Certificate - Continue with React
 ### R1D8
 
 Front End Libraries Certificate - Continue with React
+
+### R1D9
+
+Front End Libraries Certificate - Continue with React
