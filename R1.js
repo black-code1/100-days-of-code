@@ -281,4 +281,97 @@ class ResetPassword extends React.Component {
   }
 };
 
+
+const Camper = (props) => {
+   return (
+     <div>
+       <p>{props.name}</p>
+     </div>
+   );
+};
+
+Camper.propTypes = {
+  name: PropTypes.string.isRequired
+};
+
+Camper.defaultProps = {
+  name: 'CamperBot'
+};
+
+class StatefulComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    // initialize state here
+this.state = {
+  name:'mark'
+}
+  }
+  render() {
+    return (
+      <div>
+        <h1>{this.state.name}</h1>
+      </div>
+    );
+  }
+};
+
+
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: 'freeCodeCamp'
+    }
+  }
+  render() {
+    return (
+      <div>
+<h1>{this.state.name}</h1>
+      </div>
+    );
+  }
+};
+
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: 'freeCodeCamp'
+    }
+  }
+  render() {
+const name = this.state.name
+    // change code above this line
+    return (
+      <div>
+<h1>{name}</h1>
+      </div>
+    );
+  }
+};
+
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: 'Initial State'
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+  handleClick() {
+    // change code below this line
+this.setState({name: 'React Rocks!'})
+    // change code above this line
+  }
+  render() {
+    return (
+      <div>
+        <button onClick={this.handleClick}>Click Me</button>
+        <h1>{this.state.name}</h1>
+      </div>
+    );
+  }
+};
+
+
   */
