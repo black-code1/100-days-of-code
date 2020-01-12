@@ -43,3 +43,7 @@ Front End Libraries Certificate - Continue with React
 ### R1D10
 
 Front End Libraries Certificate - Continue with React
+
+### R1D11
+
+Front End Libraries Certificate - Continue with React
