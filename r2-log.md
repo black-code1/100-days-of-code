@@ -62,4 +62,4 @@ Found the solution to my react code not working, it was a browser issue
 
 ### R1D15
 
-Front End Libraries Certificate - Continue with React
+Front End Libraries Certificate - Continue with React.
