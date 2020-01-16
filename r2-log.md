@@ -51,3 +51,15 @@ Front End Libraries Certificate - Continue with React
 ### R1D12
 
 Front End Libraries Certificate - Continue with React
+
+### R1D13
+
+Completing JS challenges because of the recent freecodecamp update which undo some my completed challenges
+
+### R1D14
+
+Found the solution to my react code not working, it was a browser issue
+
+### R1D15
+
+Front End Libraries Certificate - Continue with React
