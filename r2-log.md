@@ -71,3 +71,7 @@ Front End Libraries Certificate - Progressing with React.
 ### R2D17
 
 Front End Libraries Certificate - Progressing with React.
+
+### R2D18
+
+Front End Libraries Certificate - Finish with React Challenge.

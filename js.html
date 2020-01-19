@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <script>
+    const scores1 = [10, 15, 18];
+    const scores2 = [15, 10, 18];
+
+    const equal = (score1, score2) => {
+      for (const score in score1) {
+        if (scores2.indexOf(score) && score1.length === score2.length)
+          return true;
+        // return scores2.indexOf(score)
+      }
+      return false;
+    };
+    console.log(equal(scores1, scores2));
+  </script>
+  <body></body>
+</html>
