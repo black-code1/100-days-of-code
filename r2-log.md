@@ -82,4 +82,8 @@ Front End Libraries Certificate - Start with Redux Challenge.
 
 ### R2D20
 
-Front End Libraries Certificate - Finish with React Challenge.
+Front End Libraries Certificate - Continue with Redux Challenge.
+
+### R2D21
+
+Front End Libraries Certificate - Continue with Redux Challenge.

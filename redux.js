@@ -22,7 +22,6 @@ const action = {
 const action = {
   type: "LOGIN"
 };
-// Define an action creator here:
 function actionCreator() {
   return action;
 }
@@ -200,3 +199,115 @@ const rootReducer = Redux.combineReducers({
 });
 
 const store = Redux.createStore(rootReducer);
+
+const ADD_NOTE = "ADD_NOTE";
+
+const notesReducer = (state = "Initial State", action) => {
+  switch (action.type) {
+    case ADD_NOTE:
+      return action.text;
+    default:
+      return state;
+  }
+};
+
+const addNoteText = note => {
+  return {
+    type: ADD_NOTE,
+    text: note
+  };
+};
+
+const store = Redux.createStore(notesReducer);
+
+console.log(store.getState());
+store.dispatch(addNoteText("Hello!"));
+console.log(store.getState());
+
+/* Use Middleware to Handle Asynchronous Actions */
+const REQUESTING_DATA = "REQUESTING_DATA";
+const RECEIVED_DATA = "RECEIVED_DATA";
+
+const requestingData = () => {
+  return { type: REQUESTING_DATA };
+};
+const receivedData = data => {
+  return { type: RECEIVED_DATA, users: data.users };
+};
+
+const handleAsync = () => {
+  return function(dispatch) {
+    dispatch(requestingData());
+
+    setTimeout(function() {
+      let data = {
+        users: ["Jeff", "William", "Alice"]
+      };
+      dispatch(receivedData());
+    }, 2500);
+  };
+};
+
+const defaultState = {
+  fetching: false,
+  users: []
+};
+
+const asyncDataReducer = (state = defaultState, action) => {
+  switch (action.type) {
+    case REQUESTING_DATA:
+      return {
+        fetching: true,
+        users: []
+      };
+    case RECEIVED_DATA:
+      return {
+        fetching: false,
+        users: action.users
+      };
+    default:
+      return state;
+  }
+};
+
+const store = Redux.createStore(
+  asyncDataReducer,
+  Redux.applyMiddleware(ReduxThunk.default)
+);
+
+/* Write a Counter with Redux */
+const INCREMENT = "INCREMENT";
+const DECREMENT = "DECREMENT";
+
+const counterReducer = (state = 0, action) => {
+  switch (action.type) {
+    case INCREMENT:
+      return state + 1;
+    case DECREMENT:
+      return state - 1;
+    default:
+      return state;
+  }
+};
+
+const incAction = () => {
+  return {
+    type: INCREMENT
+  };
+};
+
+const decAction = () => {
+  return {
+    type: DECREMENT
+  };
+};
+
+const store = Redux.createStore(counterReducer);
+
+/* Never Mutate State */
+
+/* */
+
+/* */
+
+/* */
