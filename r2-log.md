@@ -86,7 +86,7 @@ Front End Libraries Certificate - Continue with Redux Challenge.
 
 ### R2D21
 
-Front End Libraries Certificate - Continue with Redux Challenge.
+Front End Libraries Certificate - Continue with Redux Challenges.
 
 ### R2D22
 
